@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Startup | Rural Startup Connect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="index.html">RuralConnect</a>
+  <button class="menu-button" id="menuButton">☰</button>
+  <nav id="navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="startups.html">Startups</a>
+    <a href="learning.html">Learning Hub</a>
+    <a href="register.html">Register</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+
+<section class="page-intro">
+  <h1>Register Your <span>Startup</span></h1>
+  <p>Tell the community about your business.</p>
+</section>
+
+<section class="container">
+  <form id="startupForm">
+    <h2>Business registration</h2>
+
+    <label>Business Name *
+      <input name="name" required maxlength="100"
+             placeholder="Enter business name">
+    </label>
+
+    <label>Owner Name *
+      <input name="owner" required maxlength="100"
+             placeholder="Enter owner's name">
+    </label>
+
+    <label>Business Category *
+      <select name="category" required>
+        <option value="">Select category</option>
+        <option>Handicrafts</option>
+        <option>Food & Agriculture</option>
+        <option>Clothing</option>
+        <option>Services</option>
+        <option>Other</option>
+      </select>
+    </label>
+
+    <label>Village / Town *
+      <input name="village" required maxlength="100"
+             placeholder="Enter village or town">
+    </label>
+
+    <label>Business Description *
+      <textarea name="description" required maxlength="600" rows="4"
+                placeholder="Describe your products or services"></textarea>
+    </label>
+
+    <label>Email or Contact Detail *
+      <input name="contact" required maxlength="120"
+             placeholder="Enter business contact details">
+    </label>
+
+    <button type="submit" class="btn">Submit Registration →</button>
+    <p id="startupStatus" class="status" role="status"></p>
+  </form>
+</section>
+
+<footer>
+  <h3>Rural Startup Connect</h3>
+  <p>Every local business deserves an opportunity to grow.</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="startups.html">Startups</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+  <p>© 2026 Rural Startup Connect | College Project</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

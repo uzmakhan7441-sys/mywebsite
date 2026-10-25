@@ -1,0 +1,12 @@
+{
+  "name": "rural-startup-connect",
+  "version": "1.0.0",
+  "description": "Technology support for rural startups",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

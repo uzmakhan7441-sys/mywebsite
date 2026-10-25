@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard | Rural Startup Connect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="index.html">RuralConnect Admin</a>
+  <button class="menu-button" id="menuButton">☰</button>
+  <nav id="navigation">
+    <a href="index.html">View Website</a>
+    <a href="startups.html">Startups</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="page-intro">
+  <h1>Admin <span>Dashboard</span></h1>
+  <p>Review the startup directory and submitted enquiries.</p>
+</section>
+
+<section class="container">
+  <div class="section-title">
+    <h2>Registered <span>startups</span></h2>
+    <p>Current businesses saved in the JSON database.</p>
+  </div>
+
+  <div id="startupList" class="cards">
+    <p>Loading startups...</p>
+  </div>
+</section>
+
+<section class="container" style="background:#f8f8f1;max-width:none;padding-left:7%;padding-right:7%">
+  <div class="section-title">
+    <h2>Contact <span>enquiries</span></h2>
+    <p>Messages submitted through the Contact Us page.</p>
+  </div>
+
+  <div id="messageList" class="cards">
+    <p>Loading enquiries...</p>
+  </div>
+</section>
+
+<footer>
+  <h3>Rural Startup Connect</h3>
+  <p>Local business support management.</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="startups.html">Startup Directory</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+  <p>© 2026 Rural Startup Connect | College Project</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

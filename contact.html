@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Rural Startup Connect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="index.html">RuralConnect</a>
+  <button class="menu-button" id="menuButton">☰</button>
+  <nav id="navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="startups.html">Startups</a>
+    <a href="learning.html">Learning Hub</a>
+    <a href="register.html">Register</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+</header>
+
+<section class="page-intro">
+  <h1>Contact <span>Our Team</span></h1>
+  <p>Have a question? We are here to help.</p>
+</section>
+
+<section class="container">
+  <div class="section-title">
+    <h2>Send us an <span>enquiry</span></h2>
+    <p>Fill in the form below to contact the project team.</p>
+  </div>
+
+  <form id="contactForm">
+    <label>Your Name *
+      <input type="text" name="name" required maxlength="100"
+             placeholder="Enter your name">
+    </label>
+
+    <label>Email Address *
+      <input type="email" name="email" required maxlength="120"
+             placeholder="you@example.com">
+    </label>
+
+    <label>Topic *
+      <select name="topic" required>
+        <option value="">Choose a topic</option>
+        <option>Startup Registration</option>
+        <option>Digital Marketing</option>
+        <option>Online Safety</option>
+        <option>Learning Resources</option>
+        <option>Other</option>
+      </select>
+    </label>
+
+    <label>Your Message *
+      <textarea name="message" required maxlength="1000" rows="5"
+                placeholder="How can we help you?"></textarea>
+    </label>
+
+    <button type="submit" class="btn">Send Message →</button>
+    <p id="contactStatus" class="status" role="status"></p>
+  </form>
+</section>
+
+<section class="container">
+  <div class="cards">
+    <article class="card">
+      <div class="card-icon">💻</div>
+      <h3>Technology Support</h3>
+      <p>Learn about digital tools and online business promotion.</p>
+    </article>
+    <article class="card">
+      <div class="card-icon">🤝</div>
+      <h3>Community Engagement</h3>
+      <p>Help us understand the technology needs of local businesses.</p>
+    </article>
+    <article class="card">
+      <div class="card-icon">📚</div>
+      <h3>Learning Resources</h3>
+      <p>Explore useful information for your business journey.</p>
+    </article>
+  </div>
+</section>
+
+<footer>
+  <h3>Rural Startup Connect</h3>
+  <p>Supporting rural entrepreneurs through technology.</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="learning.html">Learning Hub</a>
+  </div>
+  <p>© 2026 Rural Startup Connect | College Project</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
